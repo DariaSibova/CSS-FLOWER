@@ -11,4 +11,9 @@
     height: 100vh;
     background-color: #adc178;
   }
+  .loader {
+    width: var(--size);
+    height: var(--size);
+  }
+  
   

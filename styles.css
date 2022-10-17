@@ -16,4 +16,21 @@
     height: var(--size);
   }
   
+  .loader__inner {
+    position: absolute;
+    display: block;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    box-shadow: 
+      -20px -30px 0 0 #ffffff,
+      20px -30px 0 0 #ffffff,
+      20px 30px 0 0 #ffffff,
+      -20px 30px 0 0 #ffffff,
+      35px 0px 0 0 #ffffff,
+      -35px 0px 0 0 #ffffff;
+    background: #ffff00;
+    animation: rotate var(--speed) linear infinite;
+  }
+  
   
